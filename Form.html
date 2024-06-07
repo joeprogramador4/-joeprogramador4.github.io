@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta charset="utf-8">
+<title>Simple design studio - Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<!-- Bootstrap  -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Main css  -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Animate.css -->
+<link rel="stylesheet" href="css/animate.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet'>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+</head>
+<body>
+
+
+  <nav class="navbar navbar-custom navbar-static-top" role="navigation">
+              <div class="container">
+                  <div class="navbar-header pull-left">
+                      <a href="" class="navbar-brand">
+                          <span class="brand-logo"><img src="images/logo.png" alt="" width="250" height="250"/></span>
+                      </a>
+                  </div>
+                  <div class="main-nav pull-right">
+                      <div class="button_container toggle">
+                          <span class="top"></span>
+                          <span class="middle"></span>
+                          <span class="bottom"></span>
+                      </div>
+                  </div>
+                  <div class="overlay" id="overlay">
+                      <nav class="overlay-menu">
+                          <ul>
+                            <li><a href="index.html">Pagina Principal</a></li>
+                              <li><a href="studio.html">La Moda Como Una Industria</a></li>
+                              <li><a href="project-description.html ">La Moda y Los Jovenes</a></li>
+                              <li><a href="projects.html">Lo aesthetic</a></li>
+                              <li><a href="contact.html">Datos del Programador</a></li>
+                              <li><a href="Form.html">Formulario</a></li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
+  </nav>
+
+
+
+ 
+   <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-5 contact-margin wow fadeInUp animated">
+          <h2 class="contact-heading">CONTACT US
+          <span>Phone: 212-333-4000</span>
+          <img src="gato.gif" alt=""/>
+          </h2>
+          <h2 class="contact-heading">
+            <span>GRACIAS POR LEER NUESTRA PÁGINA INFORMATIVA , DANOS TU OPINION!</span>
+           
+            </h2>
+        </div>
+        <div class="col-md-7 col-sm-7 contact-margin">
+          <p class="text-contact">
+</p> 
+<form method="post" action="process_form.php">
+    <div class="control-group form-group">
+        <div class="controls">
+            <label>Nombre:</label>
+            <input type="text" class="form-control" name="name" required>
+        </div>
+    </div>
+
+    <div class="control-group form-group">
+        <div class="controls">
+            <label>Email:</label>
+            <input type="email" class="form-control" name="email" required>
+        </div>
+    </div>
+
+    <div class="control-group form-group">
+        <div class="controls">
+            <label>¿te gusto algun tipo de estilo?¿Cuál?</label>
+            <input type="text" class="form-control" name="estilo" required>
+        </div>
+    </div>
+
+    <div class="control-group form-group">
+        <div class="controls">
+            <label>¿consideras que la moda afecta mas de manera negtiva o positiva?</label>
+            <input type="text" class="form-control" name="np" required>
+        </div>
+    </div>
+
+    <div class="control-group form-group">
+        <div class="controls">
+            <label>Material Favorito:</label>
+            <input type="text" class="form-control" name="material" required>
+        </div>
+    </div>
+
+    <div class="control-group form-group">
+        <div class="controls">
+            <label>Opiniones de la pagina:</label>
+            <textarea rows="10" cols="100" class="form-control" name="message" required style="resize:none"></textarea>
+        </div>
+    </div>
+    <div id="success"></div>
+    <button type="submit" class="contact-btn btn">Enviar</button>
+</form>
+   
+   <div class="container">
+         <div class="row">
+           <div class="line-symbol2"></div>
+         </div>
+   </div>
+   <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-3">
+        </div>
+        <div class="col-md-6 col-sm6 section-bg-color">
+          <div class="row">
+            <div class="col-sm-9">
+              <h2>INFORMACION DE CONTACTO</h2>
+              <p>numero: 235 107 9429</p>
+              <p>Email: josejoelruiz7@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 section-bg-color1">
+          <div class="row">
+            <div class="col-sm-9">
+            <h3>Todos los derechos reservados 2024</h3>
+            <p class="pull-right"><a href=""><img src="images/twitter.png" alt=""/></a></p>
+            <p class="pull-right icons-f"><a href=""><img src="images/facebook.png" alt=""/></a></p>
+            </div><!-- /col-sm-9 -->
+          </div><!--/row-->
+        </div><!-- /col-sm-3 -->
+      </div><!-- /row -->
+    </div><!-- /container -->
+  </footer><
+  <script src="js/jquery-1.11.0.js"></script>
+  <!-- Boostrap JS -->
+<script src="js/bootstrap.min.js"></script>
+  <!-- Nav JS -->
+<script src="js/nav.js"></script>
+  <!-- Smooth scroll JS -->
+  <script src="js/smoothscroll.js"></script>
+  <!-- Gogle map JS -->
+  <script src="js/app.js"></script> 
+  <!-- Wow JavaScript -->
+  <script src="js/wow.js"></script>
+  
+   <script>
+   new WOW().init();
+   </script>
+
+
+</body>
+</html>
